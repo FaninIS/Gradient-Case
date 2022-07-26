@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "warsaw_gothic";
+  src: url("../fonts/warsawgothic.woff2") format("woff2"), url("../fonts/warsawgothic.woff") format("woff"), url("../fonts/warsawgothic.otf") format("otf");
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .box,
+body .box {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+html .box .box__item,
+body .box .box__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 50px;
+  color: #fff;
+  font-size: 8rem;
+  text-shadow: 5px 5px 12px #000;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "warsaw_gothic";
+}
+html .box .a-gradient,
+body .box .a-gradient {
+  background-image: linear-gradient(red, brown);
+}
+html .box .r-gradient,
+body .box .r-gradient {
+  background-image: linear-gradient(rgb(4, 78, 143), rgb(238, 142, 248));
+}
+html .box .s-gradient,
+body .box .s-gradient {
+  background-image: linear-gradient(rgb(10, 225, 189), rgb(243, 152, 15));
+}
+html .box .e-gradient,
+body .box .e-gradient {
+  background-image: linear-gradient(rgb(174, 46, 46), rgb(3, 129, 58));
+}
+html .box .n-gradient,
+body .box .n-gradient {
+  background-image: linear-gradient(rgb(249, 89, 164), rgb(241, 247, 202));
+}
+html .box .l-gradient,
+body .box .l-gradient {
+  background-image: linear-gradient(rgb(120, 56, 1), rgb(174, 171, 171));
+}

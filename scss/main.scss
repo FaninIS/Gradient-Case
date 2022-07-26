@@ -1,0 +1,38 @@
+@use "fonts";
+@use "variables" as v;
+@use "mixins";
+
+html,
+body {
+    @include mixins.screenStyle;
+
+    .box {
+        @include mixins.containerStyle;
+
+        .box__item {
+            @include mixins.boxItemStyle;
+            font-family: "warsaw_gothic";
+        }
+
+        .a-gradient {
+            background-image: v.$aGrad;
+        }
+
+        .r-gradient {
+            background-image: v.$rGrad;
+        }
+        .s-gradient {
+            background-image: v.$sGrad;
+        }
+        .e-gradient {
+            background-image: v.$eGrad;
+        }
+        .n-gradient {
+            background-image: v.$nGrad;
+        }
+
+        .l-gradient {
+            background-image: v.$lGrad;
+        }
+    }
+}
